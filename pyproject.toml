@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["syedmuneeb321 <130203424+syedmuneeb321@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.34"
+langgraph-sdk = "^0.1.32"
+langgraph-checkpoint-sqlite = "^2.0.0"
+langchain-google-genai = "^2.0.0"
+langchain-community = "^0.3.1"
+streamlit = "^1.39.0"
+langchain-core = "^0.3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
